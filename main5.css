@@ -182,7 +182,7 @@ a {
   height: 40px;
   width: 211px;
   display: block;
-  text-indent: 101%;
+  text-indent: 150%;
   overflow: hidden;
   white-space: nowrap;
   background-repeat: no-repeat;
@@ -339,6 +339,7 @@ a {
 .mailbox a {
   background: #FFE180;
   padding: 20px;
+  color: #3F5D45;
 }
 
 .mailbox input {
@@ -366,10 +367,11 @@ a {
   width: 296px;
 }
 
-.mail img {
+.mail i {
   width: 24px;
   height: 24px;
   margin-left: 20px;
+  color: #3F5D45;
 }
 
 @media (max-width: 568px) {
@@ -663,10 +665,7 @@ a {
   position: absolute;
   right: 22px;
   top: 19px;
-}
-
-.heart img {
-  display: block;
+  color: #3F5D45;
 }
 
 .label {

@@ -88,7 +88,7 @@
       height: 40px;
       width: 211px;
       display: block;
-      text-indent: 101%;
+      text-indent: 150%;
       overflow: hidden;
       white-space: nowrap;
       background-repeat: no-repeat;
@@ -199,7 +199,7 @@
   a{
     background: $yellow; 
     padding: 20px;
-
+    color: $green;
   }
   input{
     border-style: hidden;
@@ -219,10 +219,11 @@
   align-items: center;
   background: $gray;
   width: 296px;
-  img{
+  i{
     width: 24px;
     height: 24px;
     margin-left: 20px;
+    color: $green;
   }
   @include mobile(){
     width: 251px;
