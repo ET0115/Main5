@@ -198,6 +198,7 @@ a {
   display: none;
   border: none;
   background: transparent;
+  padding: 6px;
   cursor: pointer;
 }
 
@@ -1021,6 +1022,12 @@ a {
   padding: 16px 8px 0 20px;
 }
 
+@media (max-width: 768px) {
+  .billlist ul {
+    padding-left: 8px;
+  }
+}
+
 .billlist li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1041,6 +1048,12 @@ a {
   margin-top: 18px;
 }
 
+@media (max-width: 768px) {
+  .billlist p {
+    font-size: 12px;
+  }
+}
+
 .billlist p span {
   font-size: 20px;
   font-weight: bold;
@@ -1057,6 +1070,12 @@ a {
   width: 120px;
   height: 80px;
   margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .billlist img {
+    margin-right: 8px;
+  }
 }
 
 .donebanner {
