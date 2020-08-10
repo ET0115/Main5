@@ -198,8 +198,16 @@
   display: flex;
   a{
     background: $yellow; 
-    padding: 20px;
+    padding: 20px 26px;
     color: $green;
+    &:hover{
+      color: $yellow;
+      background: $lightgray;
+    }
+    i{
+      width: 16px;
+      height: 16px;
+    }
   }
   input{
     border-style: hidden;
