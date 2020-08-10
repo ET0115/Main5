@@ -936,7 +936,8 @@ a {
 }
 
 .submit:hover {
-  background: #EAF0ED;
+  background: #8DA291;
+  color: #FFE180;
 }
 
 .receipt {
