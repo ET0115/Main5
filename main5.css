@@ -771,8 +771,9 @@ a {
 }
 
 .arrow {
-  display: block;
-  padding: 18px;
+  padding: 15.5px 24px 16.5px 24px;
+  border: 1px solid #EAF0ED;
+  color: #3F5D45;
 }
 
 .arrow:hover {

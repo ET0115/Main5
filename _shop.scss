@@ -173,8 +173,9 @@
   }
 }
 .arrow{
-  display: block;
-  padding: 18px;
+  padding: 15.5px 24px 16.5px 24px;
+  border: 1px solid $gray;
+  color: $green;
   &:hover{
     background: $gray;
   }
